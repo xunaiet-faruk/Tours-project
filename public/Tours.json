@@ -1,0 +1,213 @@
+
+    [
+        {
+            "image": "https://i.ibb.co/7tGzFR4/image.png",
+            "name": "Beach Resort Paradise",
+            "travel_type": "Countryside",
+            "price": 350.00,
+            "days": 7,
+            "description": "A serene countryside retreat with stunning beachfront views, perfect for relaxation and unwinding."
+        },
+        {
+            "image": "https://i.ibb.co/WnxsDXX/image.png",
+            "name": "Mountain Retreat Haven",
+            "price": 500.00,
+            "travel_type": "City",
+            "days": 5,
+            "description": "Experience the tranquility of the mountains while enjoying the vibrant cityscape nearby."
+        },
+        {
+            "image": "https://i.ibb.co/fCvM4K7/image.png",
+            "name": "Urban Loft Escape",
+            "price": 250.00,
+            "days": 3,
+             "travel_type": "Adventure",
+            "description": "An adventurous urban getaway in a stylish loft, surrounded by thrilling city escapades."
+        },
+        {
+            "image": "https://i.ibb.co/QCxBmnc/image.png",
+            "name": "Lakefront Serenity Cottage",
+            "price": 800.00,
+            "travel_type": "City",
+            "days": 10,
+                    "description": "Experience tranquility by the lake in a cozy cottage, a perfect city escape."
+        },
+        {
+            "name": "Forest Retreat Haven",
+            "image": "https://i.ibb.co/5xNZfN9/image.png",
+            "price": 900.00,
+            "days": 7,
+            "travel_type": "Forest",
+              "description": "Immerse yourself in the heart of nature with this forest retreat haven, a secluded getaway surrounded by towering trees and peaceful serenity."
+
+        },
+        {
+            "name": "Island Paradise Hideaway",
+            "image": "https://i.ibb.co/R9rHhTH/image.png",
+            "price": 1700.00,
+            "days": 9,
+            "travel_type": "Beach",
+                    "description": "Indulge in the ultimate beach getaway on a secluded island paradise, where crystal-clear waters meet pristine sandy shores."
+
+        },
+        {
+            "name": "Ski Chalet Getaway",
+            "image": "https://i.ibb.co/X2PgK91/image.png",
+            "price": 1300.00,
+            "days": 5,
+            "travel_type": "Mountain",
+                    "description": "Experience the thrill of skiing and cozy comfort in a charming mountain chalet, surrounded by breathtaking snowy landscapes."
+        },
+        {
+            "name": "Countryside Cottage Retreat",
+            "image": "https://i.ibb.co/bmxWbmQ/image.png",
+            "price": 700.00,
+            "days": 4,
+            "travel_type": "Countryside",
+                    "description": "Embrace the tranquility of the countryside in a cozy cottage retreat, offering peace and serenity amidst pastoral landscapes."
+        },
+        {
+            "name": "Historic City Tour",
+            "image": "https://i.ibb.co/SvLCbtB/image.png",
+            "price": 950.00,
+            "days": 5,
+            "travel_type": "City",
+                    "description": "Explore the rich history and vibrant culture of a city with an immersive historic tour through iconic landmarks and sites."
+        },
+        {
+            "name": "Tropical Rainforest Adventure",
+            "image": "https://i.ibb.co/gwz8TVZ/image.png",
+            "price": 1400.00,
+            "days": 8,
+            "travel_type": "Forest",
+                    "description": "Embark on an exciting tropical rainforest adventure, discovering diverse flora and fauna in the heart of the wilderness."
+        },
+        {
+            "name": "Beachfront Villa Relaxation",
+            "image": "https://i.ibb.co/2sKgB5h/image.png",
+            "price": 1600.00,
+            "days": 6,
+            "travel_type": "Beach",
+                    "description": "Unwind in luxury at a beachfront villa, offering relaxation with stunning views and luxurious amenities."
+        },
+        {
+            "name": "Mountain Lodge Serenity",
+            "image": "https://i.ibb.co/HzW1S4B/image.png",
+            "price": 1100.00,
+            "days": 7,
+            "travel_type": "Mountain",
+                    "description": "Experience serenity and natural beauty in a cozy mountain lodge, nestled amidst towering peaks and picturesque landscapes."
+        },
+        {
+            "name": "Seaside Resort Escape",
+            "image": "https://i.ibb.co/BGVs8TB/image.png",
+            "price": 1800.00,
+            "days": 9,
+            "travel_type": "Beach",
+                    "description": "Escape to a luxurious seaside resort, where azure waters and golden sands create the perfect backdrop for relaxation."
+        },
+        {
+            "name": "Village Homestay Experience",
+            "image": "https://i.ibb.co/Gs94zGk/image.png",
+            "price": 600.00,
+            "days": 3,
+            "travel_type": "Countryside",
+                    "description": "Immerse yourself in local culture with a village homestay experience, where you'll live among locals and embrace their customs and traditions."
+        },
+        {
+            "name": "City Skyline View Apartment",
+            "image": "https://i.ibb.co/z5GnVdp/image.png",
+            "price": 850.00,
+            "days": 4,
+            "travel_type": "City",
+                    "description": "Enjoy a stunning skyline view from your cozy city apartment, offering both modern comfort and urban excitement right at your doorstep."
+        },
+        {
+            "name": "Northern Lights Expedition",
+            "image": "https://i.ibb.co/vwhTKGm/image.png",
+            "price": 2000.00,
+            "days": 10,
+            "travel_type": "Adventure",
+                    "description": "Embark on an exhilarating adventure to witness the mystical Northern Lights, an awe-inspiring natural phenomenon in the Arctic sky."
+        },
+        {
+            "name": "Cabin by the Lake",
+            "image": "https://i.ibb.co/KLdY1GL/image.png",
+            "price": 750.00,
+            "days": 5,
+            "travel_type": "Riverside",
+                    "description": "Relax and unwind in a charming cabin nestled by the serene lakeside, offering tranquility and beautiful waterfront views."
+        },
+        {
+            "name": "Beachside Bungalow Retreat",
+            "image": "https://i.ibb.co/HTvTKTv/image.png",
+            "price": 1200.00,
+            "days": 6,
+            "travel_type": "Beach",
+                    "description": "Escape to a beachside bungalow, where the sound of waves and the fresh sea breeze create the perfect setting for a peaceful retreat."
+        },
+        {
+            "name": "Safari Lodge Adventure",
+            "image": "https://i.ibb.co/KWnyN4J/image.png",
+            "price": 1900.00,
+            "days": 7,
+            "travel_type": "Adventure",
+                    "description": "Embark on a thrilling safari adventure and stay at a lodge surrounded by untamed wilderness and diverse wildlife."
+        },
+        {
+            "name": "Alps Mountain Hiking Tour",
+            "image": "https://i.ibb.co/GvtqfS5/image.png",
+            "price": 900.00,
+            "days": 5,
+            "travel_type": "Mountain",
+                    "description": "Explore the majestic Alps with a guided hiking tour, offering breathtaking vistas and an exhilarating mountain experience."
+        },
+        {
+            "name": "Riverfront Cabin Hideout",
+            "image": "https://i.ibb.co/w7MS9zD/image.png",
+            "price": 950.00,
+            "days": 6,
+            "travel_type": "Riverside",
+                    "description": "Escape to a cozy cabin nestled along a picturesque riverside, offering peace, relaxation, and the soothing sounds of flowing water."
+        },
+        {
+            "name": "Tropical Island Retreat",
+            "image": "https://i.ibb.co/FsjMnbN/image.png",
+            "price": 1650.00,
+            "days": 8,
+            "travel_type": "Beach",
+                    "description": "Indulge in a luxurious tropical island retreat, surrounded by palm trees, pristine beaches, and endless opportunities for relaxation."
+        },
+        {
+            "name": "Historical Landmarks Tour",
+            "image": "https://i.ibb.co/GR9Vwxx/image.png",
+            "price": 850.00,
+            "days": 4,
+            "travel_type": "City",
+                    "description": "Embark on a fascinating tour through historical landmarks, uncovering the rich heritage and stories behind a city's iconic sites."
+        },
+        {
+            "name": "Coastal Cliffside Villa",
+            "image": "https://i.ibb.co/HpKRhhD/image.png",
+            "price": 1400.00,
+            "days": 7,
+            "travel_type": "Beach",
+                    "description": "Experience luxury and breathtaking views at a coastal cliffside villa, overlooking the azure waters and rugged coastline."
+        },
+        {
+            "name": "Wilderness Safari Camp",
+            "image": "https://i.ibb.co/qLGSbPF/image.png",
+            "price": 2000.00,
+            "days": 10,
+            "travel_type": "Adventure",
+                    "description": "Embark on an unforgettable adventure staying in a wilderness safari camp, surrounded by nature's untouched beauty and wildlife."
+        },
+        {
+            "name": "Countryside Farmhouse Stay",
+            "image": "https://i.ibb.co/BChytGc/image.png",
+            "price": 700.00,
+            "days" :500.0,
+            "travel_type":"Beach",
+                    "description": "Experience rustic charm with a countryside farmhouse stay, offering a serene escape and a glimpse into traditional rural life."
+        }
+    ]

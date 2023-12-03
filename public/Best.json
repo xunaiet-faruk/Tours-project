@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Mystical Mountains",
+        "price": 2999,
+        "rating": 2.1,
+        "days": 8,
+        "image": "https://i.ibb.co/8NLTRR9/image.png",
+         "details": "Embark on an enchanting journey through mist-covered peaks and ancient forests."
+    },
+    {
+        "name": "Cultural Wonders Tour",
+        "price": 1999,
+        "rating": 3.2,
+        "days": 6,
+        "image": "https://i.ibb.co/ZBtHSX4/pexels-spencer-davis-4356143.jpg",
+        "details": "Immerse yourself in diverse cultures, historic landmarks, and vibrant traditions."
+    },
+    {
+        "name": "Tropical Paradise Escape",
+        "price": 4499,
+        "rating": 3.2,
+        "days": 12,
+        "image": "https://i.ibb.co/FgZp1L9/image.png",
+         "details": "Relax in luxury amidst palm-fringed beaches and azure waters."
+    }
+ 
+]

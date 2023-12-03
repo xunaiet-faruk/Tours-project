@@ -1,0 +1,68 @@
+[
+    {
+        "destination": "Paris, France",
+        "duration_days": 7,
+        "cost": 2500,
+        "highlights": [
+            "Eiffel Tower",
+            "Louvre Museum",
+            "Seine River Cruise"
+        ],
+        "image_url": "https://i.ibb.co/PmrFwv4/pexels-flo-dahm-699466.jpg"
+    },
+    {
+        "destination": "Tokyo, Japan",
+        "duration_days": 10,
+        "cost": 3500,
+        "highlights": [
+            "Tokyo Disneyland",
+            "Senso-ji Temple",
+            "Shibuya Crossing"
+        ],
+        "image_url": "https://i.ibb.co/qkpHzGr/pexels-berk-ozdemir-3779816.jpg"
+    },
+    {
+        "destination": "Cape Town, South Africa",
+        "duration_days": 14,
+        "cost": 4200,
+        "highlights": [
+            "Table Mountain",
+            "Cape Winelands",
+            "Robben Island"
+        ],
+        "image_url": "https://i.ibb.co/qkpHzGr/pexels-berk-ozdemir-3779816.jpg"
+    },
+    {
+        "destination": "Rio de Janeiro, Brazil",
+        "duration_days": 9,
+        "cost": 3000,
+        "highlights": [
+            "Christ the Redeemer",
+            "Copacabana Beach",
+            "Tijuca Forest"
+        ],
+        "image_url": "https://i.ibb.co/ft5VG5d/pexels-anderson-clayton-pereira-1068795.jpg"
+    },
+    {
+        "destination": "Sydney, Australia",
+        "duration_days": 12,
+        "cost": 3800,
+        "highlights": [
+            "Sydney Opera House",
+            "Bondi Beach",
+            "Blue Mountains"
+        ],
+        "image_url": "https://i.ibb.co/HB5thp8/pexels-pixabay-259547.jpg"
+    },
+    {
+        "destination": "America",
+        "duration_days": 12,
+        "cost": 3800,
+        "highlights": [
+            "Sydney Opera House",
+            "Bondi Beach",
+            "Blue Mountains"
+        ],
+        "image_url": "https://i.ibb.co/v3CMhwZ/pexels-arthur-brognoli-2316745.jpg"
+    }
+]
