@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import './Navbar.css'
 import { useContext } from "react";
 import { Authcontext } from "../../../../Firbase/Authprovider/Auths";
-
+import { TiShoppingCart } from "react-icons/ti";
 const Navbar = () => {
 
     const {user,logout} =useContext(Authcontext)
@@ -35,6 +35,18 @@ const Navbar = () => {
                Tour
             </NavLink>
       </li>
+      <li>
+            <NavLink
+                to="/shop"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
+                }
+            >
+               Shop
+            </NavLink>
+      </li>
+     
+
                 {
 
 
@@ -56,6 +68,8 @@ const Navbar = () => {
                         </NavLink>
 
                     </li>
+
+                 
                     
                     </>
 
@@ -83,9 +97,19 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
+                 
+                  
+                       
+                        
+                  
                     <Link to={'/login'}>
                     <button className="btn bn5 px-7">Login</button>
                     </Link>
+
+                    <TiShoppingCart className="text-5xl" />
+                    <div className="badge badge-secondary mb-12 ">+99</div>
+
+                 
                 </div>
             </div>
         </div>
