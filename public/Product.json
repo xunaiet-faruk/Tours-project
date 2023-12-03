@@ -1,0 +1,50 @@
+[
+    {
+        "image": "https://i.ibb.co/zx4mMhR/backpack-300x300.jpg",
+        "name": "Traveler's Backpack",
+        "rating": 4.7,
+        "price": 79.99
+    },
+    {
+        "image": "https://i.ibb.co/4RcJw0h/Beach-Bag-300x300.jpg",
+        "name": "Beach Bag",
+        "rating": 4.5,
+        "price": 29.95
+    },
+    {
+        "image": "https://i.ibb.co/2nKrd4f/Flip-Flops-300x300.jpg",
+        "name": "Beach Shoe",
+        "rating": 4.8,
+        "price": 149.99
+    },
+    {
+        "image": "https://i.ibb.co/cNnMDT4/image.png",
+        "name": "Travel Pillow Set",
+        "rating": 4.3,
+        "price": 19.99
+    },
+    {
+        "image": "https://i.ibb.co/ZdNht3g/image.png",
+        "name": "Hiking Boots",
+        "rating": 4.6,
+        "price": 89.99
+    },
+    {
+        "image": "https://i.ibb.co/tC03HPY/image.png",
+        "name": "Camping Cookware Set",
+        "rating": 4.9,
+        "price": 59.95
+    },
+    {
+        "image": "https://i.ibb.co/30j1cNp/image.png",
+        "name": "Travel Neck Pillow",
+        "rating": 4.4,
+        "price": 12.99
+    },
+    {
+        "image": "https://i.ibb.co/fXsFLXV/image.png",
+        "name": "Portable Solar Charger",
+        "rating": 4.7,
+        "price": 49.99
+    }
+]
