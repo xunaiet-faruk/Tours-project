@@ -12,7 +12,7 @@ const Banner = () => {
                         </video>  
                
 
-                    <div className="absolute flex transform -translate-y-1/2 justify-end left-5 right-5 gap-4  top-[800px]">
+                    <div className="absolute flex transform -translate-y-1/2 justify-end left-5 right-5 gap-4  top-[700px]">
                         
                         <a href="#slide4" className="btn btn-outline btn-circle text-white">❮</a>
                         <a href="#slide2" className="btn btn-outline btn-circle text-white">❯</a>
@@ -20,14 +20,14 @@ const Banner = () => {
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
                     <video className='' autoPlay loop muted src={video2} ></video>   
-                    <div className="absolute flex transform -translate-y-1/2 justify-end left-5 right-5 gap-4 top-[800px]">
+                    <div className="absolute flex transform -translate-y-1/2 justify-end left-5 right-5 gap-4 top-[700px]">
                         <a href="#slide1" className="btn btn-outline btn-circle text-white">❮</a>
                         <a href="#slide3" className="btn btn-outline btn-circle text-white">❯</a>
                     </div>
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
                     <video className='' autoPlay loop muted src={video3} ></video>   
-                    <div className="absolute flex transform -translate-y-1/2 justify-end left-5 right-5 gap-4 top-[800px]">
+                    <div className="absolute flex transform -translate-y-1/2 justify-end left-5 right-5 gap-4 top-[700px]">
                         <a href="#slide3" className="btn btn-outline btn-circle text-white">❮</a>
                         <a href="#slide1" className="btn btn-outline btn-circle text-white">❯</a>
                     </div>

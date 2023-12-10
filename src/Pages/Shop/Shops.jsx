@@ -1,3 +1,5 @@
+
+import { Rating } from "@smastrom/react-rating";
 import { useEffect, useState } from "react";
 
 
@@ -24,17 +26,29 @@ const Shops = () => {
                     </div>
                 </div>
             </div>
+            <h1 className="text-6xl text-center font-bold mt-5 mb-12 italic">Shop Here</h1>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 max-w-screen-xl mx-auto">
                 {
 
 
-                    shop.map(item => <div key={item._id} className="card card-compact bg-base-100 shadow-xl">
-                        <figure><img src={item?.image} alt="Shoes" /></figure>
+                    shop.map(item => <div key={item._id} className="card w-[370px]  card-compact bg-base-100 hover:shadow-xl border">
+                        <figure><img className="w-[250px] h-[250px]" src={item?.image} alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title">{item?.name}</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h2 className="text-xl font-bold">{item?.name}</h2>
+                            <p>
+                                <Rating 
+                                    style={{ maxWidth: 110 }}
+                                    value={item.rating}
+                                    readOnly
+                                />
+
+                                
+                              
+
+                       </p>
+                          <p className="text-xl font-bold text-red-500">$ {item?.price}</p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                                <button className="btn hover:bg-yellow-500">Buy Now</button>
                             </div>
                         </div>
                     </div>)
