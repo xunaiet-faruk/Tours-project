@@ -6,7 +6,7 @@ const Usealltours = () => {
     const [loading,setloading] =useState(true);
     useEffect(() => {
 
-        fetch('/Tours.json')
+        fetch('http://localhost:5000/tours')
             .then(res => res.json())
             .then(data => 
                 settour(data),

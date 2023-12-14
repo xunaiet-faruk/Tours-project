@@ -1,13 +1,14 @@
 
 import { Rating } from "@smastrom/react-rating";
 import { useEffect, useState } from "react";
+import Navbar from "../Home/Home/Navbar/Navbar";
 
 
 const Shops = () => {
 
     const [shop,setShop] =useState([])
     useEffect(()=>{
-        fetch('/Product.json')
+        fetch('http://localhost:5000/shop')
         .then(res => res.json())
         .then(data => setShop(data))
 
@@ -16,6 +17,7 @@ const Shops = () => {
 
     return (
         <div>
+            <Navbar/>
             <div className="hero min-h-screen mb-12" style={{ backgroundImage: 'url(https://i.ibb.co/D4mJW55/image.png)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">

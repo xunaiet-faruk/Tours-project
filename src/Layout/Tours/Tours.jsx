@@ -4,6 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 import Usealltours from "../../Hooks/Usealltours";
 import Tourcategori from "../Tourcategori";
 import Tourstabs from "../Tourstabs";
+import Navbar from "../../Pages/Home/Home/Navbar/Navbar";
 
 
 const Tours = () => {
@@ -16,7 +17,7 @@ const Tours = () => {
     const City = menu.filter(item => item.travel_type === 'City')
     return (
         <div>
-        
+        <Navbar/>
             <div className="hero min-h-screen " style={{ backgroundImage: 'url(https://i.ibb.co/hWGjMRp/pexels-nothing-ahead-3571551-1.jpg)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">

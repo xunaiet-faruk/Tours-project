@@ -2,10 +2,11 @@ import { useContext } from "react";
 import { Authcontext } from "../Firbase/Authprovider/Auths";
 
 import './Register.css'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 const Register = () => {
     const { createuser } = useContext(Authcontext)
+    const nabigate =useNavigate()
     const handleclick = e => {
         e.preventDefault()
         const email = e.target.email.value;
@@ -21,6 +22,7 @@ const Register = () => {
                     text: "Successfully Register",
                     icon: "success"
                 });
+                nabigate('/')
             }).catch(error => console.log(error))
 
     }

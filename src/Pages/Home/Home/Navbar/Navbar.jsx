@@ -38,81 +38,109 @@ const Navbar = () => {
       <li>
             <NavLink
                 to="/shop"
-                className={({ isActive, isPending }) =>
+                className={({ isActive, isPending })=>
                     isPending ? "pending" : isActive ? "active" : ""
                 }
             >
                Shop
             </NavLink>
       </li>
+      <li>
+            <NavLink
+                to="/hotels"
+                className={({ isActive, isPending })=>
+                    isPending ? "pending" : isActive ? "active" : ""
+                }
+            >
+                Features
+            </NavLink>
+      </li>
      
 
-                {
-
-
-                    user ? <>
-                    
-              <button onClick={handlelogout} className="btn btn-sm mt-1  btn-error">Logout</button>
-                    
-                    </>
-                    :
-                    <>
-                    <li>
-                        <NavLink
-                            to="/login"
-                            className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                            }
-                        >
-                            Login
-                        </NavLink>
-
-                    </li>
-
-                 
-                    
-                    </>
-
-
-                }
+              
     
     </>
     return (
-        <div className="navbar fixed z-10 bg-opacity-30  text-white font-bold  pl-12">
-            <div className="navbar">
+      <div className="">
+            <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                          {links}
+                        </div>
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52">
+                            {links}
                         </ul>
                     </div>
-                    <img className=" w-[100px]" src={'https://i.ibb.co/VjvT5tQ/image-removebg-preview-3.png'} alt="" />
+                    <img className="w-24" src={"https://i.ibb.co/SfTxwdW/image-removebg-preview-9.png"} alt="" />
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center  hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {links}
+
                     </ul>
                 </div>
                 <div className="navbar-end">
-                 
-                  
-                       
-                        
-                  
-                    <Link to={'/login'}>
-                    <button className="btn bn5 px-7">Login</button>
-                    </Link>
-
-                    <TiShoppingCart className="text-5xl" />
-                    <div className="badge badge-secondary mb-12 ">+99</div>
-
-                 
+                    {
+                        user ? "" : <Link to={'/login'}><button className="btn bn5">Login</button></Link>
+                    }
                 </div>
+                {/* editessss */}
+
+                {
+                    user && <div className=" ">
+
+                        <div className="flex-none gap-2">
+
+                            <div className="dropdown dropdown-end">
+                                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                                    <div className="w-10 rounded-full">
+                                        
+                                        {
+
+                                            user ? <img className="w-12  rounded-full h-12" src={user.photoURL}></img> : ''
+
+
+                                        }                            </div>
+                                </div>
+                                <ul tabIndex={0} className="mt-3 z-[1] p-2  text-center bg-black shadow menu menu-sm dropdown-content text-xl font-bold italic rounded-box w-52">
+
+                                    <li className="ml-12"><Link>Dashboard</Link></li>
+                                    {
+
+
+                                        user ? <>
+
+                                            <button onClick={handlelogout} className="btn btn-sm mt-1  btn-error">Logout</button>
+
+                                        </>
+                                            :
+                                            <>
+                                                <li>
+                                                    <NavLink
+                                                        to="/login"
+                                                        className={({ isActive, isPending }) =>
+                                                            isPending ? "pending" : isActive ? "active" : ""
+                                                        }
+                                                    >
+                                                        Login
+                                                    </NavLink>
+
+                                                </li>
+
+
+
+                                            </>
+
+
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
             </div>
-        </div>
+      </div>
     );
 };
 

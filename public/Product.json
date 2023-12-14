@@ -3,48 +3,58 @@
         "image": "https://i.ibb.co/zx4mMhR/backpack-300x300.jpg",
         "name": "Traveler's Backpack",
         "rating": 4.7,
-        "price": 79.99
+        "price": 79.99,
+        "description": "The Venture Pro Explorer Backpack is built for the modern adventurer. With multiple compartments and pockets, it's designed to organize all your travel essentials efficiently. Crafted from water-resistant materials, it ensures your belongings stay dry in unpredictable weather."
     },
     {
         "image": "https://i.ibb.co/4RcJw0h/Beach-Bag-300x300.jpg",
         "name": "Beach Bag",
         "rating": 4.5,
-        "price": 29.95
+        "price": 29.95,
+        "description":"your stylish and functional companion for sandy getaways. Crafted from durable, sand-resistant canvas, this spacious tote effortlessly carries towels, sunscreen, and your favorite beach reads. Featuring a chic striped design and multiple interior pockets, it keeps your essentials organized."
+    
     },
     {
         "image": "https://i.ibb.co/2nKrd4f/Flip-Flops-300x300.jpg",
         "name": "Beach Shoe",
         "rating": 4.8,
-        "price": 149.99
+        "price": 149.99,
+        "description": "Dive into comfort and style with our AquaStride Beach Shoes. These versatile and lightweight shoes are designed for beach explorations, providing protection and grip on both sand and slippery surfaces. Constructed with quick-drying materials and breathable mesh, they ensure your feet stay cool and dry"
     },
     {
         "image": "https://i.ibb.co/cNnMDT4/image.png",
         "name": "Travel Pillow Set",
         "rating": 4.3,
-        "price": 19.99
+        "price": 19.99,
+        "description": "Introducing the WanderRest Travel Pillow Set, your ultimate companion for restful journeys. This set includes a memory foam neck pillow, eye mask, and ear"
     },
     {
         "image": "https://i.ibb.co/ZdNht3g/image.png",
         "name": "Hiking Boots",
         "rating": 4.6,
-        "price": 89.99
+        "price": 89.99,
+        "description": "Meet the TrailMaster Hiking Boots, your perfect companions for rugged trails and outdoor adventures. These boots are crafted from waterproof and breathable materials, ensuring dry and comfortable feet in various terrains. With a sturdy yet lightweight design, they provide excellent ankle support and traction."
     },
     {
         "image": "https://i.ibb.co/tC03HPY/image.png",
         "name": "Camping Cookware Set",
         "rating": 4.9,
-        "price": 59.95
+        "price": 59.95,
+        "description": "Introducing the TrailBlaze Camp Cookware Set, your portable kitchen for outdoor adventures. This set includes a lightweight yet durable pot, pan, and nesting bowls with foldable handles"
+
     },
     {
         "image": "https://i.ibb.co/30j1cNp/image.png",
         "name": "Travel Neck Pillow",
         "rating": 4.4,
-        "price": 12.99
+        "price": 12.99,
+        "description": "Meet the ComfortCloud Travel Neck Pillow, your cozy companion for on-the-go comfort during tours and travels. This memory foam pillow provides exceptional neck support, reducing strain during long journeys. Its plush velour cover is soft against the skin and easily removable"
     },
     {
         "image": "https://i.ibb.co/fXsFLXV/image.png",
         "name": "Portable Solar Charger",
         "rating": 4.7,
-        "price": 49.99
+        "price": 49.99,
+        "description": "Introducing the SunBeam Portable Solar Charger, your sustainable power solution for tours and travels. This compact charger harnesses solar energy to keep your devices charged on the go. With multiple USB ports and a high-efficiency solar panel, it charges smartphones, cameras, and other gadgets"
     }
 ]
