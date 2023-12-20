@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Usealltours from "../../Hooks/Usealltours";
-import Tourcategori from "../Tourcategori";
 import Tourstabs from "../Tourstabs";
 import Navbar from "../../Pages/Home/Home/Navbar/Navbar";
 

@@ -5,9 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: #eeeeea;
-}
+
 
 .wrapper {
     width: 100%;
@@ -24,7 +22,7 @@ body {
     justify-content: start;
 }
 
-.card {
+.design {
     width: 80px;
     border-radius: .75rem;
     background-size: cover;
@@ -75,6 +73,7 @@ body {
 
 .description h4 {
     text-transform: uppercase;
+    
 }
 
 input {
@@ -90,18 +89,3 @@ input:checked+label .description {
     transform: translateY(0) !important;
 }
 
-.card[for="card1"] {
-    background-image: url('./img.png');
-}
-
-.card[for="card2"] {
-    background-image: url('./img2.jpg');
-}
-
-.card[for="card3"] {
-    background-image: url('./img3.jpg');
-}
-
-.card[for="card4"] {
-    background-image: url('./img4.jpg');
-}
